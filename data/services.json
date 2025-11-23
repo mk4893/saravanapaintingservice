@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Interior Painting",
+      "description": "Transform your indoor spaces with our professional interior painting services. We use high-quality paints and techniques to ensure a flawless finish.",
+      "features": [
+        "Color consultation",
+        "Wall preparation",
+        "Eco-friendly paint options",
+        "Detailed clean-up after the job"
+      ],
+      "image": "assets/images/interior_painting.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Exterior Painting",
+      "description": "Enhance your home's curb appeal with our exterior painting services. We provide durable and weather-resistant finishes.",
+      "features": [
+        "Power washing",
+        "Surface repair",
+        "Weather-resistant paints",
+        "Free estimates"
+      ],
+      "image": "assets/images/exterior_painting.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Commercial Painting",
+      "description": "Our commercial painting services are tailored to meet the needs of businesses. We work efficiently to minimize disruption to your operations.",
+      "features": [
+        "Flexible scheduling",
+        "High-quality commercial-grade paints",
+        "Safety compliance",
+        "Interior and exterior options"
+      ],
+      "image": "assets/images/commercial_painting.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Specialty Finishes",
+      "description": "Add a unique touch to your space with our specialty finishes, including textures, faux finishes, and more.",
+      "features": [
+        "Custom designs",
+        "Expert craftsmanship",
+        "Wide range of materials",
+        "Consultation included"
+      ],
+      "image": "assets/images/specialty_finishes.jpg"
+    }
+  ]
+}

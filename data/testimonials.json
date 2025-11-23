@@ -1,0 +1,29 @@
+{
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "location": "New York, NY",
+      "testimonial": "The painting service was exceptional! They transformed my living room into a beautiful space. Highly recommend!"
+    },
+    {
+      "name": "Jane Smith",
+      "location": "Los Angeles, CA",
+      "testimonial": "Professional and efficient! The team was friendly and did a fantastic job on my house exterior."
+    },
+    {
+      "name": "Emily Johnson",
+      "location": "Chicago, IL",
+      "testimonial": "I love my new office space! The colors they suggested were perfect, and the quality of work is top-notch."
+    },
+    {
+      "name": "Michael Brown",
+      "location": "Houston, TX",
+      "testimonial": "Great experience from start to finish. The painters were punctual and very skilled."
+    },
+    {
+      "name": "Sarah Davis",
+      "location": "Miami, FL",
+      "testimonial": "I was impressed with the attention to detail. My kitchen looks amazing now!"
+    }
+  ]
+}

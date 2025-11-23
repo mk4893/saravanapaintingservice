@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Painting Service</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header"></div>
+
+    <main>
+        <section class="about">
+            <h1>About Our Painting Service</h1>
+            <p>Welcome to our painting service! We have been providing high-quality painting solutions for over a decade. Our mission is to transform spaces with our expert painting services, ensuring customer satisfaction with every project.</p>
+            <h2>Our History</h2>
+            <p>Founded in 2010, our company started with a small team of passionate painters. Over the years, we have grown into a trusted name in the industry, known for our attention to detail and commitment to excellence.</p>
+            <h2>Our Mission</h2>
+            <p>Our mission is to deliver exceptional painting services that enhance the beauty and value of your property. We strive to use the best materials and techniques to ensure a flawless finish every time.</p>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer"></div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load header and footer components
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

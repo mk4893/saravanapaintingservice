@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Painting Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <main>
+        <h1>Our Painting Services</h1>
+        <section>
+            <h2>Residential Painting</h2>
+            <p>Transform your home with our expert residential painting services. We use high-quality paints and techniques to ensure a beautiful finish.</p>
+        </section>
+        <section>
+            <h2>Commercial Painting</h2>
+            <p>Enhance your business's appearance with our professional commercial painting services. We work around your schedule to minimize disruption.</p>
+        </section>
+        <section>
+            <h2>Interior Painting</h2>
+            <p>Revitalize your indoor spaces with our interior painting services. Our team pays attention to detail to create a stunning atmosphere.</p>
+        </section>
+        <section>
+            <h2>Exterior Painting</h2>
+            <p>Protect and beautify your property with our exterior painting services. We use durable paints that withstand the elements.</p>
+        </section>
+        <section>
+            <h2>Specialty Finishes</h2>
+            <p>Explore our specialty finishes, including textures and faux finishes, to add a unique touch to your space.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load header and footer
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

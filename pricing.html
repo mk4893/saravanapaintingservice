@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Painting Service</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header"></div>
+
+    <main>
+        <h1>Pricing Options</h1>
+        <p>We offer competitive pricing for our painting services. Below are our pricing packages:</p>
+        
+        <section class="pricing-table">
+            <h2>Our Packages</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Interior Painting</td>
+                        <td>$300</td>
+                        <td>Includes walls, ceilings, and trim.</td>
+                    </tr>
+                    <tr>
+                        <td>Exterior Painting</td>
+                        <td>$500</td>
+                        <td>Complete exterior painting for homes.</td>
+                    </tr>
+                    <tr>
+                        <td>Commercial Painting</td>
+                        <td>$1000</td>
+                        <td>Professional painting for businesses.</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Projects</td>
+                        <td>Contact for Quote</td>
+                        <td>Tailored services to meet your needs.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="additional-info">
+            <h2>Additional Information</h2>
+            <p>For larger projects, we offer discounts. Please contact us for more details.</p>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer"></div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load header and footer components
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+</body>
+</html>
